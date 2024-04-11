@@ -1,0 +1,10 @@
+{
+	"homepage": "https://skolaris.net",
+	"name": "skolaris.net-test",
+	"version": "1.0.0",
+	"author": "Martin Klemsa <martin.klemsa@skolaris.net>",
+	"private": true,
+	"devDependencies": {
+		"cypress": "^13.6.4"
+	}
+}
