@@ -38,7 +38,7 @@ const viewports = [
 Cypress.Skolaris = {
 	testViewports: asserter => {
 		viewports.forEach(size => {
-			it(`Should display correctly on ${size}`, () => {
+			it(`Displays correctly on ${size}`, () => {
 				if (size instanceof Array)
 					cy.viewport(size[0], size[1]);
 				else
