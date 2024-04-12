@@ -13,7 +13,7 @@
 		cy.contains('Objednat Skolaris');
 	});
 
-	it.only('Fills out the form', () => {
+	it('Fills out the form', () => {
 		cy.get('material-textfield[params*="textInput: school"]').click().find('input').type('Test school');
 		cy.get('material-select[params*="value: country"]:visible').click();
 		cy.get('.mdc-menu-surface--open').contains('Czech Republic').click();

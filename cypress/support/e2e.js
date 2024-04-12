@@ -18,17 +18,17 @@ import './commands'
 
 const viewports = [
 	'iphone-3',
-	//'iphone-6+',
-	//'iphone-x',
-	//'ipad-2',
-	//'ipad-mini',
-	//'macbook-11',
-	//'macbook-16',
-	//'samsung-note9',
-	//'samsung-s10',
-	//[800, 600],
-	//[1024, 768],
-	//[1280, 1024],
+	'iphone-6+',
+	'iphone-x',
+	'ipad-2',
+	'ipad-mini',
+	'macbook-11',
+	'macbook-16',
+	'samsung-note9',
+	'samsung-s10',
+	[800, 600],
+	[1024, 768],
+	[1280, 1024],
 	[1920, 1200]
 ];
 
